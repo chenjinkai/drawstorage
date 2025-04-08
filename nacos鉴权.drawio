@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="GMwX9xIpjUufPE9Vhtji">
-    <mxGraphModel>
+    <mxGraphModel dx="1556" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qd0hk9_egaHkqS5r_yCj-23" target="Qd0hk9_egaHkqS5r_yCj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qd0hk9_egaHkqS5r_yCj-2" target="Qd0hk9_egaHkqS5r_yCj-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="261.25" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-22" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qd0hk9_egaHkqS5r_yCj-21">
+          <mxGeometry x="-0.0827" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd0hk9_egaHkqS5r_yCj-2" target="Qd0hk9_egaHkqS5r_yCj-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-27" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qd0hk9_egaHkqS5r_yCj-25">
+          <mxGeometry x="-0.3723" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-2" value="ldap远程登录是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="360" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qd0hk9_egaHkqS5r_yCj-7" target="Qd0hk9_egaHkqS5r_yCj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="370" as="sourcePoint" />
+            <mxPoint x="260" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-16" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qd0hk9_egaHkqS5r_yCj-11">
+          <mxGeometry x="-0.176" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd0hk9_egaHkqS5r_yCj-7" target="Qd0hk9_egaHkqS5r_yCj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-20" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qd0hk9_egaHkqS5r_yCj-19">
+          <mxGeometry x="-0.0877" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-7" value="Nacos本地登录是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213.75" y="240" width="92.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-17" value="登录成功" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-23" value="管理端登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0hk9_egaHkqS5r_yCj-26" value="登录失败" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
