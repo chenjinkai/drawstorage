@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1556" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -99,6 +99,30 @@
             <mxPoint x="140" y="445" as="sourcePoint" />
             <mxPoint x="113" y="555" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-5" value="redoService.cacheInstanceForRedo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="171" y="1430" width="209" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-6" value="registerToServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="172" y="1550" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-7" value="registerService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="172" y="1300" width="129" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-8" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;redoService.instanceRegistered&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="171" y="1670" width="246" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-9" value="subscribe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="1315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-10" value="redoService.cacheSubscriberForRedo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1430" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-11" value="subscribeToServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1550" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3M_dMVQo33PNLFWxlMD-13" value="redoService.subscriberRegistered" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="1670" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
